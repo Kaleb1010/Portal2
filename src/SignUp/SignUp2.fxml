@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="446.0" prefWidth="287.0" style="-fx-background-color: #2F3539;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignUp.SignUpController">
+   <children>
+      <Label fx:id="showpasss" alignment="TOP_LEFT" layoutX="63.0" layoutY="236.0" prefHeight="20.0" prefWidth="165.0" textFill="WHITE" />
+      <ImageView fx:id="imagess" fitHeight="20.0" fitWidth="27.0" layoutX="229.0" layoutY="214.0" onMousePressed="#holding" onMouseReleased="#releases">
+         <image>
+            <Image url="@images (9).png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="name1" focusColor="WHITE" labelFloat="true" layoutX="63.0" layoutY="54.0" opacity="0.8" prefHeight="26.0" prefWidth="165.0" promptText="Name" style="-fx-background-color: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="Constantia" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="email2" focusColor="#fcfcfc" labelFloat="true" layoutX="63.0" layoutY="154.0" opacity="0.79" prefHeight="26.0" prefWidth="165.0" promptText="Email" style="-fx-background-color: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="pass" focusColor="WHITE" labelFloat="true" layoutX="63.0" layoutY="258.0" opacity="0.82" prefHeight="25.0" prefWidth="165.0" promptText="Re-type Password" style="-fx-background-color: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="Consolas" size="13.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="dept5" focusColor="#fcfcfc" labelFloat="true" layoutX="63.0" layoutY="108.0" opacity="0.79" prefHeight="26.0" prefWidth="165.0" promptText="Username" style="-fx-background-color: white;" unFocusColor="#f8f5f5">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font></JFXTextField>
+      <JFXButton fx:id="registerbtnn" buttonType="RAISED" layoutX="92.0" layoutY="372.0" onAction="#regB" opacity="0.99" prefHeight="43.0" prefWidth="106.0" ripplerFill="#110808" style="-fx-background-color: #FFB33F;" text="Register">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXPasswordField fx:id="input3" focusColor="WHITE" labelFloat="true" layoutX="63.0" layoutY="211.0" opacity="0.84" prefHeight="25.0" prefWidth="165.0" promptText="password" style="-fx-background-color: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="Consolas" size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <DatePicker fx:id="DOB" layoutX="70.0" layoutY="315.0" opacity="0.78" prefHeight="25.0" prefWidth="165.0" />
+      <JFXButton fx:id="homebtn" buttonType="RAISED" onAction="#HomeBtn" opacity="0.49" prefHeight="34.0" prefWidth="53.0" style="-fx-background-color: #FFB33F;" text="Back">
+         <font>
+            <Font name="Arial Black" size="10.0" />
+         </font></JFXButton>
+      <Label fx:id="label1" layoutX="229.0" layoutY="159.0" prefHeight="25.0" prefWidth="53.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

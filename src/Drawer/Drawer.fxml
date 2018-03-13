@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="527.0" prefWidth="197.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Drawer.drawerController">
+   <children>
+      <AnchorPane prefHeight="145.0" prefWidth="197.0">
+         <children>
+            <ImageView fitHeight="149.0" fitWidth="197.0" layoutX="-4.0" layoutY="-1.0">
+               <image>
+                  <Image url="@download (12).png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label fx:id="news" alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#news1" opacity="0.84" prefHeight="60.0" prefWidth="197.0" style="-fx-background-color: #5D6164;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <Separator opacity="0.37" prefWidth="200.0" style="-fx-background-color: #334553;" />
+      <Label fx:id="review" alignment="CENTER" layoutX="10.0" layoutY="155.0" onMouseClicked="#review1" opacity="0.83" prefHeight="55.0" prefWidth="197.0" style="-fx-background-color: #5D6164;" text="Reviews" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Separator opacity="0.41" prefWidth="200.0" style="-fx-background-color: #334553;" />
+      <Label fx:id="gallery" alignment="CENTER" layoutX="10.0" layoutY="202.0" onMouseClicked="#gallery1" opacity="0.82" prefHeight="58.0" prefWidth="197.0" style="-fx-background-color: #5D6164;" text="Languages" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Separator opacity="0.44" prefWidth="200.0" style="-fx-background-color: #334553;" />
+      <Label fx:id="aboutus" alignment="CENTER" layoutX="10.0" layoutY="202.0" onMouseClicked="#aboutus1" opacity="0.8" prefHeight="60.0" prefWidth="197.0" style="-fx-background-color: #5D6164;" text="About us" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Separator layoutX="10.0" layoutY="304.0" opacity="0.44" prefWidth="200.0" style="-fx-background-color: #334553;" />
+      <Label fx:id="backs" alignment="CENTER" layoutX="10.0" layoutY="335.0" onMouseClicked="#back1" opacity="0.8" prefHeight="60.0" prefWidth="197.0" style="-fx-background-color: #5D6164;" text="Help Centre" textFill="WHITE">
+         <font>
+            <Font name="Courier New Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Separator opacity="0.45" prefWidth="200.0" style="-fx-background-color: #334553;" />
+      <AnchorPane opacity="0.76" prefHeight="141.0" prefWidth="197.0" style="-fx-background-color: #5D6164;" />
+   </children>
+</VBox>

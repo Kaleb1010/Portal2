@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="571.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Booking.BookingController">
+   <children>
+      <VBox layoutX="610.0" layoutY="79.0" prefHeight="491.0" prefWidth="151.0">
+         <children>
+            <AnchorPane prefHeight="179.0" prefWidth="142.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="179.0" fitWidth="107.0" layoutX="47.0" layoutY="-1.0">
+                     <image>
+                        <Image url="@download (12).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Separator prefHeight="0.0" prefWidth="143.0" />
+            <Label fx:id="home" alignment="TOP_RIGHT" onMouseClicked="#Home" prefHeight="38.0" prefWidth="153.0" text="HOME">
+               <font>
+                  <Font name="Courier New Bold" size="23.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <Label fx:id="login" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="166.0" onMouseClicked="#login" prefHeight="38.0" prefWidth="154.0" text="LOGIN">
+               <font>
+                  <Font name="Courier New Bold" size="22.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <Label fx:id="offers" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="204.0" onMouseClicked="#offerss" prefHeight="38.0" prefWidth="154.0" text="OFFERS">
+               <font>
+                  <Font name="Courier New Bold" size="21.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+            <Label fx:id="payement" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="242.0" onMouseClicked="#payements" prefHeight="38.0" prefWidth="154.0" text="PAYMENT">
+               <font>
+                  <Font name="Courier New Bold" size="19.0" />
+               </font>
+            </Label>
+            <Separator prefWidth="200.0" />
+         </children>
+      </VBox>
+      <AnchorPane prefHeight="70.0" prefWidth="764.0">
+         <children>
+            <Label fx:id="suite" alignment="BOTTOM_CENTER" layoutX="3.0" onMouseClicked="#press1" prefHeight="75.0" prefWidth="124.0" text="Deluxe suites">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="128.0" orientation="VERTICAL" prefHeight="75.0" prefWidth="6.0" />
+            <Label fx:id="suite2" alignment="BOTTOM_CENTER" layoutX="132.0" layoutY="1.0" onMouseClicked="#press2" prefHeight="75.0" prefWidth="115.0" text="Prime suites">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="253.0" orientation="VERTICAL" prefHeight="75.0" prefWidth="6.0" />
+            <Label fx:id="suite3" alignment="BOTTOM_CENTER" layoutX="256.0" layoutY="6.0" onMouseClicked="#press3" prefHeight="69.0" prefWidth="124.0" text="Special suites">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="379.0" orientation="VERTICAL" prefHeight="75.0" prefWidth="6.0" />
+            <Label fx:id="suite4" alignment="BOTTOM_CENTER" layoutX="385.0" layoutY="6.0" onMouseClicked="#press4" prefHeight="69.0" prefWidth="115.0" text="Luxury suites">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="497.0" orientation="VERTICAL" prefHeight="75.0" prefWidth="6.0" />
+            <Label fx:id="suite5" alignment="BOTTOM_CENTER" layoutX="503.0" layoutY="6.0" onMouseClicked="#press5" prefHeight="69.0" prefWidth="115.0" text="Love suites">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="621.0" orientation="VERTICAL" prefHeight="75.0" prefWidth="6.0" />
+            <Label fx:id="suite6" alignment="BOTTOM_CENTER" layoutX="621.0" layoutY="1.0" onMouseClicked="#press6" prefHeight="75.0" prefWidth="138.0" text="Beach suites">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="1.0" layoutY="74.0" prefHeight="6.0" prefWidth="764.0" />
+         </children>
+      </AnchorPane>
+      <JFXDrawer fx:id="drawer" alignment="TOP_RIGHT" layoutY="79.0" prefHeight="491.0" prefWidth="538.0" />
+   </children>
+</AnchorPane>

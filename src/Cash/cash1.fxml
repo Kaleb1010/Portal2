@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="193.0" prefWidth="439.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cash.cashController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="-2.0" prefHeight="59.0" prefWidth="439.0" text="PAYMENT METHOD" underline="true">
+         <font>
+            <Font name="Segoe Print" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="152.0" layoutY="67.0" opacity="0.78" prefHeight="73.0" prefWidth="88.0" style="-fx-background-color: white;">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="84.0">
+               <image>
+                  <Image url="@download (5).png" />
+               </image>
+            </ImageView>
+         </graphic></Label>
+      <Label alignment="CENTER" layoutX="289.0" layoutY="67.0" prefHeight="73.0" prefWidth="88.0" style="-fx-background-color: white;">
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="110.0">
+               <image>
+                  <Image url="@download (3).png" />
+               </image>
+            </ImageView>
+         </graphic></Label>
+      <ImageView fitHeight="63.0" fitWidth="76.0" layoutX="37.0" layoutY="73.0">
+         <image>
+            <Image url="@download (3).jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

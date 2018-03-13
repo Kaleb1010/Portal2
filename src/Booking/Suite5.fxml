@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="493.0" prefWidth="188.0">
+         <children>
+            <ImageView fitHeight="166.0" fitWidth="193.0" layoutX="2.0" layoutY="326.0">
+               <image>
+                  <Image url="@download (9).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="172.0" fitWidth="193.0" layoutX="2.0" layoutY="147.0">
+               <image>
+                  <Image url="@download (9).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="143.0" fitWidth="193.0" layoutX="2.0">
+               <image>
+                  <Image url="@download (9).jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="190.0" orientation="VERTICAL" prefHeight="493.0" prefWidth="20.0" style="-fx-background-color: black;" />
+            <Separator layoutY="137.0" prefHeight="17.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Separator layoutY="314.0" prefHeight="17.0" prefWidth="200.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="493.0" prefWidth="180.0">
+         <children>
+            <ImageView fitHeight="143.0" fitWidth="204.0" layoutX="-4.0">
+               <image>
+                  <Image url="@download (12).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="166.0" fitWidth="199.0" layoutX="-4.0" layoutY="324.0">
+               <image>
+                  <Image url="@spoon1.png.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="172.0" fitWidth="193.0" layoutX="-1.0" layoutY="147.0">
+               <image>
+                  <Image url="@download (1).png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="183.0" orientation="VERTICAL" prefHeight="492.0" prefWidth="20.0" style="-fx-background-color: black;" />
+            <Separator layoutX="-10.0" layoutY="137.0" prefHeight="17.0" prefWidth="204.0" style="-fx-background-color: black;" />
+            <Separator layoutX="-10.0" layoutY="314.0" prefHeight="17.0" prefWidth="210.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="213.0" layoutY="10.0" prefHeight="493.0" prefWidth="186.0">
+         <children>
+            <ImageView fitHeight="143.0" fitWidth="200.0" layoutX="-3.0">
+               <image>
+                  <Image url="@images (15).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="172.0" fitWidth="200.0" layoutX="-3.0" layoutY="147.0">
+               <image>
+                  <Image url="@images (14).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="166.0" fitWidth="204.0" layoutX="-5.0" layoutY="324.0">
+               <image>
+                  <Image url="@download (13).jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="-3.0" layoutY="138.0" prefHeight="17.0" prefWidth="203.0" style="-fx-background-color: black;" />
+            <Separator layoutX="-10.0" layoutY="314.0" prefHeight="17.0" prefWidth="210.0" style="-fx-background-color: black;" />
+            <Separator layoutX="197.0" orientation="VERTICAL" prefHeight="492.0" prefWidth="20.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="416.0" layoutY="10.0" prefHeight="493.0" prefWidth="186.0">
+         <children>
+            <ImageView fitHeight="172.0" fitWidth="156.0" layoutX="-8.0" layoutY="147.0">
+               <image>
+                  <Image url="@download (12).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="143.0" fitWidth="156.0" layoutX="-4.0">
+               <image>
+                  <Image url="@download (13).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="166.0" fitWidth="156.0" layoutX="-8.0" layoutY="324.0">
+               <image>
+                  <Image url="@download (12).jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="-8.0" layoutY="314.0" prefHeight="17.0" prefWidth="156.0" style="-fx-background-color: black;" />
+            <Separator layoutX="-8.0" layoutY="137.0" prefHeight="17.0" prefWidth="156.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

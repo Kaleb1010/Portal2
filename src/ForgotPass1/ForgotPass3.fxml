@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="257.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ForgotPass1.ForgotPassController">
+   <children>
+      <Label layoutX="91.0" layoutY="14.0" prefHeight="38.0" prefWidth="290.0" text="FORGOT PASSWORD ?" textFill="#0d0101" underline="true">
+         <font>
+            <Font name="Consolas Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="63.0" prefHeight="24.0" prefWidth="56.0" text="Email:" textFill="#220606">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="105.0" prefHeight="24.0" prefWidth="80.0" text="Username :" textFill="#320606">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="FrgUser" layoutX="135.0" layoutY="63.0" promptText="User email" style="-fx-background-radius: 9px;">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fgtusername" layoutX="135.0" layoutY="105.0" onAction="#BtnSubmit" promptText="username" style="-fx-background-radius: 9px;">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </TextField>
+      <Label layoutX="38.0" layoutY="203.0" text="Note:" textFill="#fcfafa" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="204.0" prefHeight="17.0" prefWidth="344.0" text="Email should be the same as the one used to register" textFill="#f5f3f3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Submit" buttonType="RAISED" layoutX="148.0" layoutY="147.0" onAction="#BtnSubmit" opacity="0.95" prefHeight="46.0" prefWidth="102.0" ripplerFill="#da4d4d" style="-fx-background-color: #E45652; -fx-background-radius: 9px;" text="Login">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
